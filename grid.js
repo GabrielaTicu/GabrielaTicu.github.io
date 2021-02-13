@@ -1,8 +1,14 @@
-function change(link, alt, id) {
+function change(link, alt) {
     image.src = link;
     image.alt = alt;
+    document.getElementById('matterhorn').style.background = 'rgb(59, 197, 197)';
+    document.getElementById('denali').style.background = 'rgb(59, 197, 197)';
+    document.getElementById('kirkjufell').style.background = 'rgb(59, 197, 197)';
+    document.getElementById('tableMountain').style.background = 'rgb(59, 197, 197)';
+    document.getElementById('vinicunca').style.background = 'rgb(59, 197, 197)';
+    document.getElementById(alt).style.background = 'rgb(233, 119, 119)';
 }
-
+/*
 matterhorn.onmouseover = function(event) {
     let target = event.target;
     target.style.background = 'pink';
@@ -46,4 +52,4 @@ vinicunca.onmouseover = function(event) {
 vinicunca.onmouseout = function(event) {
     let target = event.target;
     target.style.background = '';
-}
+}*/
