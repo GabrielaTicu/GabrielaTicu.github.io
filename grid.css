@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2px;
+    padding: 2px;
+    background-color: black;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    background-color: coral;
+    font-size: 35px;
+}
+
+nav {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    text-align: left;
+    background-color: cyan;
+}
+
+main {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    text-align: center;
+    background-color: darksalmon;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: deepskyblue;
+}
