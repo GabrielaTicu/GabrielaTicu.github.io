@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 50px auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-gap: 2px;
     padding: 2px;
     background-color: black;
@@ -21,6 +21,7 @@ nav {
     padding: 2px;
     background-color: black;
     text-align: center;
+    width: 50px;
 }
 
 main {
