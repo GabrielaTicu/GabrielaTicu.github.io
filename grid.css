@@ -20,6 +20,7 @@ nav {
     display: grid;
     padding: 2px;
     background-color: black;
+    text-align: center;
 }
 
 main {
